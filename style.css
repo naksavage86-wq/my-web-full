@@ -1,0 +1,44 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  transition: background 0.3s, color 0.3s;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  width: 200px;
+}
